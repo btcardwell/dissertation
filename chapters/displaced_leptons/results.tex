@@ -1,0 +1,45 @@
+\section{Results}
+\label{results}
+
+Table~\ref{yields} shows the expected number of background events and the observed data in each SR and \pt bin, for each channel. We split SR I into two bins. In the $\Pe\Pgm$ and $\Pgm\Pgm$ channels, these bins are in the leading muon \pt, and in the $\Pe\Pe$ channel, these bins are in the leading electron \pt. The \pt bins are chosen such that the high-\pt bin contains ${<}1$ background event, which increases the sensitivity to small lifetimes and large masses. The observed number of events are consistent with the predicted amount of background.
+% \FIXME : why not define the pt bins earlier?
+
+\input{tables/yields}
+
+Figure~\ref{d0_d0_data} shows two-dimensional \ad distributions of data events that pass the preselection, and Fig.~\ref{d0_d0_sr_data} shows the same but for data events in the inclusive SR. Figure~\ref{d0_d0_sr_data_and_signal} shows the the same along with a representative signal point.
+
+\input{figures/results/d0_d0}
+
+\subsection{Observed events}
+This section provides a summary of observations recorded while examining event displays of the signal region events.
+
+In general, the SR events appear to be SM events from the $\Pp\Pp$ collision. Specifically, we see no evidence of leptons from cosmic rays, material interactions, or signal.
+
+In the $\Pe\Pgm$ channel, the SR events tend to have several jets and often have significant MET. Many events have muon $\phi$ values such that the muon system hits are all near the edges of detector sections or muon $\eta$ values such that the muon is near the barrel/endcap transition in the muon system. There are also a few events in which the electron and/or muon are associated with different primary vertex than their associated track.
+
+In the $\Pe\Pe$ channel, the majority of SR events contain at least one electron with $\abs{eta} > 1.1$, where increases the probability that their $d_0$ is poorly measured. Across all three years, most events fall into one of three categories: 
+\begin{enumerate}
+    \item Events with two electrons that appear to be from a boosted \PZ boson, with an invariant mass between 80 and 100\GeV, opposite one or two jets
+    \item Events with two electrons approximately back-to-back in $\phi$ with an invariant mass greater than 100\GeV and MET usually between 10 and 40\GeV
+    \item Events that are similar to type 2 but with at least one jet and frequently MET between 70 and 110\GeV
+\end{enumerate}
+
+In the $\Pgm\Pgm$ channel, many events have an invariant mass consistent with the mass of the \PZ boson and MET less than about 60\GeV. Most of the events found in 2017 and 2018 have an invariant mass higher than than the \PZ boson mass and could be \ttbar events. Eight of the sixteen SR events in 2016 have two muons with $\phi$ values of about $\pm\pi/2$. All of the muon pairs in these eight events have an invariant mass consistent with a \PZ boson. Furthermore, the $\cos(\alpha)$ and timing distributions of these muons imply that they are not from cosmic rays. Thirteen of the sixteen muons in these eight events have only one valid pixel hit, and event displays of these events show that the muon track often passes between or at the edge of pixel modules near the place where the two halves of the pixel detector barrel are joined. We believe that this feature causes the muon $d_0$ values to be poorly measured.
+% \FIXME: add some event displays
+
+\subsection{Limits}
+
+The data show no significant excess over background, so we set upper limits on the product of the signal production cross section ($\sigma$) and branching fraction ($\mathcal{B}$) using the ``Combine'' tool developed by the CMS Higgs working group with HybridNew limits ~\cite{Junk_CLS,Read_CLS,Cowan:2010js,CMS-NOTE-2011-005}. The ABCD estimate is performed in Combine, which has the advantage that any signal contamination in the control regions is automatically accounted for. We perform a simultaneous counting experiment in each signal region bin. Figure~\ref{limits_individual} shows the 95\% confidence level ($\CL$) upper limits on the top squark mass as a function of its lifetime.
+%top squark, Higgs boson, and slepton lifetimes as a function of their masses, for each of the three channels.
+
+The variation in the size and shape of the exclusion regions between the three channels is mostly explained by variation in signal yields between the three channels. Looking at the high-\pt bin of SR I, which is the most sensitive bin for top squarks with large masses and small lifetimes, we find that the simulated signal yield is highest in the $\Pe\Pgm$. This difference between the $\Pe\Pgm$ and same-flavor channels is a result of simple combinatorics: the two independent top squark decays will result in an $\Pe\Pgm$ final state twice as often as an $\Pe\Pe$ or $\Pgm\Pgm$ final state. In this bin, the $\Pe\Pe$ and $\Pgm\Pgm$ channel signal yields are similar. In SR IV, which drives the sensitivity for top squarks with large lifetimes, the $\Pgm\Pgm$ channel has the largest simulated signal yield when considering top squarks with lifetimes $\gtrsim10\cm$. This difference is due to the better muon reconstruction than electron reconstruction of CMS. For this same reason, the $\Pe\Pe$ channel has the smallest signal yield out of the three channels in SR IV when considering top squark lifetimes $\gtrsim10\cm$. Taking all of these effects together, we find that the $\Pe\Pgm$ channel is the most sensitive for lifetimes ${\lesssim}10\cm$ while the $\Pgm\Pgm$ channel is the most sensitive for lifetimes ${\gtrsim}10\cm$
+
+Figure~\ref{limits_combined} shows the 95\% $\CL$ upper limits for the combination of the three channels. The top squark limits assume $\mathcal{B}(\PSQt \to \cPqb \Pl)=\mathcal{B}(\PSQt \to \cPqd \Pl)=100\%$, and each $\Pl$ has an equal probability of being an electron, a muon, or a tau lepton. The Higgs boson limits assume $\mathcal{B}(\PH \to \mathrm{S}\mathrm{S}=100\%$, and each $\Pl$ has an equal probability of being an electron or a muon. See Appendix~\ref{sec:likelihoodTests} for more information on how the likelihood handles the observed yields.
+%The slepton limits assume the superpartners of the left- and right-handed leptons are mass degenerate.
+
+\input{figures/results/limits}
+
+\subsection{Additional likelihood tests}
+
+
+\pagebreak

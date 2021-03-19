@@ -1,0 +1,76 @@
+\documentclass{osudissert96}
+
+% BibTeX from the BiBTeX Documentation
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+\renewcommand\typesetChapterTitle[1]{#1}
+
+% commands from AN
+\newcommand{\Lagr}{\mathcal{L}}
+\newcommand{\MHz}{\unit{MHz}}
+\newcommand{\ns}{\unit{ns}}
+%\newcommand{\fb}{fb$^{-1}$}
+%\newcommand{\lumiunit}{cm\ensuremath{^{-2}}s\ensuremath{^{-1}}\xspace}
+\newcommand{\fb}{\fbinv} % from official CMS latex style file
+\newcommand{\lumiunit}{\percms} % from official CMS latex style file
+
+\newcommand{\ztt}{\texorpdfstring{$\mathrm{Z}{\rightarrow}\tau\tau$}{Z->tautau}\xspace}
+\newcommand{\zee}{\texorpdfstring{$\mathrm{Z}{\rightarrow}\mathrm{ee}$}{Z->ee}\xspace}
+\newcommand{\zmumu}{\texorpdfstring{$\mathrm{Z}{\rightarrow}\mu\mu$}{Z->ll}\xspace}
+\newcommand{\zll}{\texorpdfstring{$\mathrm{Z}{\rightarrow}\mathrm{ll}$}{Z->ll}\xspace}
+\newcommand{\wlnu}{\texorpdfstring{$\mathrm{W}{\rightarrow}\mathrm{l}\nu+$jets}{W->l+nu+jets}\xspace}
+
+\newcommand{\met}{\ensuremath{\not\!\!{E}_{T}}\xspace}
+\newcommand{\ctau}{$c \tau$\xspace}
+\newcommand{\avgCtau}{$\langle c \tau \rangle$\xspace}
+\newcommand{\ad}{\ensuremath{\abs{d_0}}\xspace}
+\newcommand{\az}{\ensuremath{\abs{z_0}}\xspace}
+\newcommand{\ada}{\ensuremath{\abs{d^{\mathrm{a}}_0}}\xspace}
+\newcommand{\adb}{\ensuremath{\abs{d^{\mathrm{b}}_0}}\xspace}
+\newcommand{\Kzero}{\PKzS\xspace}
+\newcommand{\pte}{\ensuremath{p_{\mathrm{T,e}}}\xspace}
+\newcommand{\sLepbar}{\ensuremath{\overline{\widetilde{l}}}\xspace}
+
+\begin{document}
+
+\author{Bryan Cardwell}
+\title{Search for displaced leptons}
+\authordegrees{B.S., M.S.}
+\unit{Physics}
+\advisorname{Christopher Hill}
+\member{Stanley Durkin}
+\member{Linda Carpenter}
+\member{Andrew Heckler}
+\maketitle
+
+\disscopyright
+
+\begin{abstract}
+  \input{abstract}
+\end{abstract}
+
+\dedication{For Cristiana and Montague.}
+\include{ack}
+\include{vita}
+
+\tableofcontents
+\listoftables
+\listoffigures
+
+\include{chapters/intro}
+\include{chapters/lhc_and_cms}
+\include{chapters/displaced_leptons}
+\include{chapters/conclusion}
+
+%\appendix
+%\include{appendices/K0}
+
+\bibliographystyle{plain}
+\bibliography{bib}
+
+\end{document}
+
+
+
+

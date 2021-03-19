@@ -1,0 +1,30 @@
+\begin{sidewaystable}
+\setlength{\tabcolsep}{40pt}
+\noindent \centering{}
+\topcaption{The $\Pgm\Pgm$ preselection criteria. The muon \pt threshold increased in 2017 and 2018 because the HLT muon \pt threshold increased at the start of 2017.}
+\label{preselection_mumu}
+\begin{tabular}{ll}
+\hline
+\multicolumn{2}{c}{Object-level selections}\\
+Selection variable & Muon          \\
+\hline
+Number               & $\geq2$              \\[2mm]
+\multirow{2}{*}{\pt} & $>35\GeV$ (2016) \\
+                     & $>45\GeV$ (2017 and 2018) \\[2mm]
+$\abs{\eta}$             & $<1.5$            \\[2mm]
+\multirow{2}{*}{$\eta-\phi$ (pixel power supply issue)}& veto ($1.0<\eta<1.5$ and $\phi>2.7$) (2017)\\
+                & veto ($0.3<\eta<1.2$ and $0.4<\phi<0.8$) (2018)\\[2mm]
+ID                   & Tight (cut-based) \\[2mm]
+Custom isolation     & Tight             \\
+\hline
+\hline
+\multicolumn{2}{c}{Event-level selections}\\
+\hline
+\multicolumn{2}{c}{Zero $\Pgm\Pgm$ pairs with $\cos{\alpha}<-0.99$} \\
+\multicolumn{2}{c}{Reject $\Delta t<-20\ns$, if both timing ndof$>7$} \\
+\multicolumn{2}{c}{At least one $\Pgm\Pgm$ pair with $\DR(\Pgm,\Pgm)>0.2$} \\
+\multicolumn{2}{c}{Reject events where the candidate muons form a good displaced vertex that overlaps with the tracker material} \\
+\multicolumn{2}{c}{Reject events with displaced electrons in the $\Pe\Pgm$ channel inclusive signal region} \\
+\hline
+\end{tabular}
+\end{sidewaystable}
