@@ -225,7 +225,10 @@
 \usepackage{xurl}
 \newcommand\longvar[1]{\mathchardef\UrlBreakPenalty=100\mathchardef\UrlBigBreakPenalty=100\url{#1}}
 \newcommand{\ztautaull}{$\ \Z{\to}\Pgt\Pgt{\to}\Pl\Pl\ $} % should this be Z or DY?
+\newcommand{\stoptolb}{$\ \PSQt\PASQt \to \PAl\PQb\:\Pl\PAQb\ $}
+\newcommand{\stoptold}{$\ \PSQt\PASQt \to \PAl\PQd\:\Pl\PAQd\ $}
 \g@addto@macro\bfseries{\boldmath}
+\usepackage{siunitx}
 
 
 
