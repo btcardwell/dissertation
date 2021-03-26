@@ -229,6 +229,9 @@
 \newcommand{\stoptold}{$\ \PSQt\PASQt \to \PAl\PQd\:\Pl\PAQd\ $}
 \g@addto@macro\bfseries{\boldmath}
 \usepackage{siunitx}
+\usepackage{amssymb}
+\usepackage[final]{fixme}
+\fxsetup{layout=footnote}
 
 
 
