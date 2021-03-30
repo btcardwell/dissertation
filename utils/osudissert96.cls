@@ -232,10 +232,9 @@
 \usepackage{amssymb}
 \usepackage[final]{fixme}
 \fxsetup{layout=footnote}
-
+\newcommand*\chem[1]{\ensuremath{\mathrm{#1}}}
 
 
 \endinput
 %% 
 %% End of file `osudissert96.cls'.
-
