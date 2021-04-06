@@ -99,7 +99,7 @@ CMS uses a particle-flow (PF) algorithm to reconstruct the properties of individ
 \subsubsection{Charged particle tracks}
 Charged particle tracks are reconstructed with an iterative procedure. Despite the middling reconstruction efficiency of each individual step, starting with the highest-purity algorithms and masking the hits associated with each reconstructed track before moving on to the next step results in higher efficiency than could be achieved with any single tracking algorithm without increasing the rate of misreconstruction.\fxnote{break up this sentence} This general principle applies to all charged particle tracks, but the tracks associated with candidate electrons and muons receive special consideration.
 
-To better handle electron trajectories affected by radiative energy loss, CMS employs a special iterative tracking procedure that includes a Gaussian-sum filter (GSF) \cite{gsf}. This approach improves the overall reconstruction efficiency, allows reconstruction of lower-pT electrons, and helps identify electrons from photon conversions and distinguish electrons from charged hadrons.
+To better handle electron trajectories affected by radiative energy loss, CMS employs a special iterative tracking procedure that includes a Gaussian-sum filter (GSF) \cite{gsf}. This approach improves the overall reconstruction efficiency, allows reconstruction of lower-\pt electrons, and helps identify electrons from photon conversions and distinguish electrons from charged hadrons.
 
 Muon track reconstruction benefits from measurements in the tracker and the muon system. Candidate muon tracks are placed in one of three categories depending on which subdetectors are used in their reconstruction: standalone muon tracks only use muon system hits; tracker muon tracks only use tracker hits and the requirement of at least one consistent muon system hit; and global muon tracks are reconstructed from a global fit of tracker and muon system hits.
 
@@ -118,3 +118,5 @@ Electron and isolated photon reconstruction, which occur together after muon rec
 Next, nonisolated photons and charged and neutral hadrons are reconstructed from the remaining tracks and clusters. Within the tracker acceptance ($|\eta|<2.5$), ECAL (HCAL) clusters without associated tracks are identified as photons (neutral hadrons). At higher $\eta$, nearby ECAL and HCAL clusters are assumed to arise from the same hadron shower and ECAL clusters without nearby HCAL clusters are identified as photons. Discrepancies between track momenta and associated HCAL cluster energy are also used to identify neutral hadrons and muons. Finally, a post-processing step corrects for rare failure modes that can potentially produce inaccurately large \ptmiss measurements.
 
 \input{figures/lhc_and_cms/cms_slice}
+
+\pagebreak

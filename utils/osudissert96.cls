@@ -228,7 +228,7 @@
 \newcommand{\stoptolb}{$\ \PSQt\PASQt \to \PAl\PQb\:\Pl\PAQb\ $}
 \newcommand{\stoptold}{$\ \PSQt\PASQt \to \PAl\PQd\:\Pl\PAQd\ $}
 \g@addto@macro\bfseries{\boldmath}
-\usepackage[separate-uncertainty=true,multi-part-units=single]{siunitx}
+\usepackage[separate-uncertainty=true,multi-part-units=single,detect-weight=true]{siunitx}
 \usepackage{amssymb}
 \usepackage[final]{fixme}
 \fxsetup{layout=footnote}
