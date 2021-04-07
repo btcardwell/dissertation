@@ -1,10 +1,11 @@
 \section{Results}
 \label{results}
 
-Table~\ref{yields} shows the expected number of background events and the observed data in each SR and \pt bin, for each channel. We split SR I into two bins. In the $\Pe\Pgm$ and $\Pgm\Pgm$ channels, these bins are in the leading muon \pt, and in the $\Pe\Pe$ channel, these bins are in the leading electron \pt. The \pt bins are chosen such that the high-\pt bin contains less than one background event, which increases the sensitivity to small lifetimes and large masses. The observed number of events are consistent with the predicted amount of background.
-% \FIXME : why not define the pt bins earlier?
+Table~\ref{yields} shows the expected number of background events and the observed data in each SR and \pt bin, for each channel. We split SR I into two bins. In the $\Pe\Pgm$ and $\Pgm\Pgm$ channels, these bins are in the leading muon \pt, and in the $\Pe\Pe$ channel, these bins are in the leading electron \pt. The \pt bins, which are defined in Table~\ref{pt_bins}, are chosen such that the high-\pt bin contains less than one background event, which increases the sensitivity to small lifetimes and large masses. As summarized in Fig.\ref{yields_figure}, the observed number of events are consistent with the predicted amount of background.
 
+\input{tables/pt_bins}
 \input{tables/yields}
+\input{figures/results/yields}
 
 Figure~\ref{d0_d0_data} shows two-dimensional \ad distributions of data events that pass the preselection, and Fig.~\ref{d0_d0_sr_data} shows the same but for data events in the inclusive SR. Figure~\ref{d0_d0_sr_data_and_signal} shows the same along with a representative signal point.
 
@@ -24,19 +25,17 @@ In the $\Pe\Pe$ channel, the majority of SR events contain at least one electron
     \item Events that are similar to type 2 but with at least one jet and frequently \ptmiss between \num{70} and \SI{110}{\GeV}
 \end{enumerate}
 
-In the $\Pgm\Pgm$ channel, many events have an invariant mass consistent with the mass of the $Z$ boson and \ptmiss less than about \SI{60}{\GeV}. Most of the events found in 2017 and 2018 have an invariant mass higher than than the $Z$ boson mass and could be \ttbar events. Eight of the sixteen SR events in 2016 have two muons with $\phi$ values of about $\pm\pi/2$. All of the muon pairs in these eight events have an invariant mass consistent with a $Z$ boson. Furthermore, the $\cos(\alpha)$ and timing distributions of these muons imply that they are not from cosmic rays. Thirteen of the sixteen muons in these eight events have only one valid pixel hit, and event displays of these events show that the muon track often passes between or at the edge of pixel modules near the place where the two halves of the pixel detector barrel are joined. We believe that this feature causes the muon $d_0$ values to be poorly measured.
-% \FIXME: add some event displays
+In the $\Pgm\Pgm$ channel, many events have an invariant mass consistent with the mass of the $Z$ boson and \ptmiss less than about \SI{60}{\GeV}. Most of the events found in 2017 and 2018 have an invariant mass higher than than the $Z$ boson mass and could be \ttbar events. Eight of the sixteen SR events in 2016 have two muons with $\phi$ values of about $\pm\pi/2$. All of the muon pairs in these eight events have an invariant mass consistent with a $Z$ boson. Furthermore, the $\cos(\alpha)$ and timing distributions of these muons imply that they are not from cosmic rays. Thirteen of the sixteen muons in these eight events have only one valid pixel hit, and event displays of these events show that the muon track often passes between or at the edge of pixel modules near the place where the two halves of the pixel detector barrel are joined. We believe that this feature causes the muon $d_0$ values to be poorly measured. \fxnote{probably add some event displays}
 
 \subsection{Limits}
 
 The data show no significant excess over background, so we set upper limits on the product of the signal production cross section ($\sigma$) and branching fraction ($\mathcal{B}$) using the HybridNew statistical method of the ``Combine'' tool developed by the CMS Higgs working group \cite{Junk_CLS,Read_CLS,Cowan:2010js,CMS-NOTE-2011-005}. The ABCD estimate is performed in Combine, which has the advantage that any signal contamination in the control regions is automatically accounted for. We perform a simultaneous counting experiment in each signal region bin. Figure~\ref{limits_individual} shows the 95\% confidence level ($\CL$) upper limits on the top squark mass as a function of its lifetime.
-%top squark, Higgs boson, and slepton lifetimes as a function of their masses, for each of the three channels.
+\fxnote{top squark, Higgs boson, and slepton lifetimes as a function of their masses, for each of the three channels.}
 
 The variation in the size and shape of the exclusion regions between the three channels is mostly explained by variation in signal yields between the three channels. Looking at the high-\pt bin of SR I, which is the most sensitive bin for top squarks with large masses and small lifetimes, we find that the simulated signal yield is highest in the $\Pe\Pgm$. This difference between the $\Pe\Pgm$ and same-flavor channels is a result of simple combinatorics: the two independent top squark decays will result in an $\Pe\Pgm$ final state twice as often as an $\Pe\Pe$ or $\Pgm\Pgm$ final state. In this bin, the $\Pe\Pe$- and $\Pgm\Pgm$-channel signal yields are similar. SR IV drives the sensitivity for top squarks with large lifetimes. Because CMS identifies muons with higher efficiency than it does electrons, the $\Pgm\Pgm$ channel has the largest simulated signal yield in SR IV when considering top squarks with lifetimes $\gtrsim\SI{10}{\cm}$. For this same reason, the $\Pe\Pe$ channel has the smallest signal yield out of the three channels in SR IV when considering top squark lifetimes $\gtrsim\SI{10}{\cm}$. Taking all of these effects together, we find that the $\Pe\Pgm$ channel is the most sensitive for lifetimes ${\lesssim}\SI{10}{\cm}$ while the $\Pgm\Pgm$ channel is the most sensitive for lifetimes ${\gtrsim}\SI{10}{\cm}$.
 
 Figure~\ref{limits_combined} shows the 95\% $\CL$ upper limits for the combination of the three channels. The top squark limits assume $\mathcal{B}(\PSQt \to \cPqb \Pl)=\mathcal{B}(\PSQt \to \cPqd \Pl)=100\%$, and each $\Pl$ has an equal probability of being an electron, a muon, or a tau lepton.
-% The Higgs boson limits assume $\mathcal{B}(\PH \to \mathrm{S}\mathrm{S}=100\%$, and each $\Pl$ has an equal probability of being an electron or a muon.
-%The slepton limits assume the superpartners of the left- and right-handed leptons are mass degenerate.
+\fxnote{The Higgs boson limits assume $\mathcal{B}(\PH \to \mathrm{S}\mathrm{S}=100\%$, and each $\Pl$ has an equal probability of being an electron or a muon. The slepton limits assume the superpartners of the left- and right-handed leptons are mass degenerate.}
 
 \input{figures/results/limits}
 
@@ -52,7 +51,7 @@ Next, we examine the equivalent pull distribution for background yield nuisance 
 
 \input{figures/results/pre_postfit_param_pulls}
 
-Finally, we check the observed asymptotic significance of the \stoptolb signal model. As shown in Fig.~\ref{significance_combined_lb}, the observed significance is less than two for all signal points we consider. We therefore conclude that the observed yields do not constitute a significant excess.
+Finally, we check the observed asymptotic significance of the \stoptolb signal model. As shown in Fig.~\ref{significance_combined_lb}, the observed significance is less than two for all signal points we consider when looking at the combination of all channels as well as each channel individually. We therefore conclude that the observed yields do not constitute a significant excess.
 
 \input{figures/results/significance}
 

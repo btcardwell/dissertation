@@ -6,7 +6,7 @@ To reconstruct the variety of particles that emerge from high-energy proton-prot
 
 \input{figures/lhc_and_cms/cms_detector_cartoon}
 
-CMS uses a right-handed coordinate system centered on the nominal collision point with positive $x$ direction pointing towards the center of the LHC ring and the positive $y$ direction pointing vertically upward. The azimuthal angle in the $x$-$y$ plane, denoted $\phi$, is measured from the positive $x$ axis, and the polar angle $\theta$ is measured from the positive $z$ axis. The angle from the $z$ axis is more commonly described in terms of the pseudorapidity $\eta$, which is defined as $\eta=-\ln\tan(\theta/2)$. The component of the momentum that is transverse to the beam direction (i.e., in the $x$-$y$ plane) is denoted \pt, and the magnitude of the negative vector sum of the \pt of all the reconstructed particles in an event is denoted \ptmiss \cite{cms_tdr_v1, cms_experiment}. \fxnote{could include a diagram if I want}
+CMS uses a right-handed coordinate system centered on the nominal collision point with positive $x$ direction pointing towards the center of the LHC ring and the positive $y$ direction pointing vertically upward. The azimuthal angle in the $x$-$y$ plane, denoted $\phi$, is measured from the positive $x$ axis, and the polar angle $\theta$ is measured from the positive $z$ axis. The angle from the $z$ axis is more commonly described in terms of the pseudorapidity $\eta=-\ln\tan(\theta/2)$. Distances in the $\eta$-$\phi$ plane are commonly referred to as $\Delta R = \sqrt{(\Delta \eta)^2 + (\Delta \phi)^2}$. The component of the momentum that is transverse to the beam direction (i.e., in the $x$-$y$ plane) is denoted \pt, and the magnitude of the negative vector sum of the \pt of all the reconstructed particles in an event is denoted \ptmiss \cite{cms_tdr_v1, cms_experiment}. \fxnote{could include a diagram if I want}
 
 The CMS detector has undergone several upgrades since its initial construction. The description presented here will focus on the detector conditions relevant to the analysis presented in Section~\ref{displaced_leptons}.
 
@@ -94,6 +94,7 @@ The trigger reduces the data writing rate from the \SI{40}{\MHz} collision rate 
 \fxnote{would be nice to expand}
 
 \subsection{Physics object reconstruction}
+\label{cms_reco}
 CMS uses a particle-flow (PF) algorithm to reconstruct the properties of individual particles from the combination of all subdetector measurements. Starting from charged particle tracks from the tracker and muon system and clusters of energy deposited in the ECAL and HCAL, CMS's PF algorithm aims to reconstruct all final-state electrons, muons, photons, and charged and neutral hadrons in a given event. In this section, I first describe the reconstruction of tracks and energy clusters before moving on to the individual particle identification and reconstruction. A complete description of the CMS PF algorithm is available in \cite{cms_pf}.
 
 \subsubsection{Charged particle tracks}
