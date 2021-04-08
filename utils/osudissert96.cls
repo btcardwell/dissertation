@@ -234,6 +234,8 @@
 \fxsetup{layout=footnote}
 \newcommand*\chem[1]{\ensuremath{\mathrm{#1}}}
 \usepackage{adjustbox}
+\usepackage{lineno}
+
 
 
 \endinput
