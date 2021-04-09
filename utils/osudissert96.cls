@@ -228,14 +228,14 @@
 \newcommand{\stoptolb}{$\PSQt\PASQt \to \PAl\PQb\:\Pl\PAQb\ $}
 \newcommand{\stoptold}{$\PSQt\PASQt \to \PAl\PQd\:\Pl\PAQd\ $}
 \g@addto@macro\bfseries{\boldmath}
-\usepackage[separate-uncertainty=true,multi-part-units=single,detect-weight=true]{siunitx}
+\usepackage[separate-uncertainty=true,multi-part-units=single,detect-weight=true,binary-units=true]{siunitx}
 \usepackage{amssymb}
 \usepackage[final]{fixme}
 \fxsetup{layout=footnote}
 \newcommand*\chem[1]{\ensuremath{\mathrm{#1}}}
 \usepackage{adjustbox}
 \usepackage{lineno}
-
+\DeclareSIUnit\invfb{\femto\barn\tothe{-1}}
 
 
 \endinput
