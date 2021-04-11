@@ -227,6 +227,11 @@
 \newcommand{\ztautaull}{$\cPZ{\to}\Pgt\Pgt{\to}\Pl\Pl\ $} % should this be Z or DY?
 \newcommand{\stoptolb}{$\PSQt\PASQt \to \PAl\PQb\:\Pl\PAQb\ $}
 \newcommand{\stoptold}{$\PSQt\PASQt \to \PAl\PQd\:\Pl\PAQd\ $}
+\newcommand{\suthreec}{\ensuremath{\mathrm{SU(3)_{c}}}}
+\newcommand{\sutwol}{\ensuremath{\mathrm{SU(2)_{L}}}}
+\newcommand{\uoney}{\ensuremath{\mathrm{U(1)_{Y}}}}
+\newcommand{\ewsymm}{\ensuremath{\sutwol\otimes\uoney}}
+\newcommand{\smsymm}{\ensuremath{\suthreec\otimes\ewsymm}}
 \g@addto@macro\bfseries{\boldmath}
 \usepackage[separate-uncertainty=true,multi-part-units=single,detect-weight=true,binary-units=true]{siunitx}
 \usepackage{amssymb}
