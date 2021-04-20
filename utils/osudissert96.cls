@@ -73,7 +73,7 @@
 \DeclareOption{b5paper}{\OptionNotUsed}
 \DeclareOption{landscape}{\OptionNotUsed}
 %\DeclareOption{final}{\OptionNotUsed}
-%\DeclareOption{draft}{\OptionNotUsed}
+\DeclareOption{draft}{\OptionNotUsed}
 %\DeclareOption{oneside}{\OptionNotUsed}
 %\DeclareOption{twoside}{\OptionNotUsed}
 %\DeclareOption{openright}{\OptionNotUsed}
