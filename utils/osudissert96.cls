@@ -223,6 +223,7 @@
 
 % Add other packages etc
 \usepackage{xurl}
+\usepackage{notoccite}
 \newcommand\longvar[1]{\mathchardef\UrlBreakPenalty=100\mathchardef\UrlBigBreakPenalty=100\url{#1}}
 \newcommand{\ztautaull}{$\cPZ{\to}\Pgt\Pgt{\to}\Pl\Pl\ $} % should this be Z or DY?
 \newcommand{\stoptolb}{$\PSQt\PASQt \to \PAl\PQb\:\Pl\PAQb\ $}
