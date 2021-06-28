@@ -236,7 +236,7 @@
 \g@addto@macro\bfseries{\boldmath}
 \usepackage[separate-uncertainty=true,multi-part-units=single,detect-weight=true,binary-units=true]{siunitx}
 \usepackage{amssymb}
-\usepackage[draft]{fixme}
+\usepackage[final]{fixme}
 \fxsetup{layout=footnote}
 \newcommand*\chem[1]{\ensuremath{\mathrm{#1}}}
 \usepackage{adjustbox}
